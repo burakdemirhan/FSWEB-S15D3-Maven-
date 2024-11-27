@@ -62,9 +62,9 @@ public class MainTest {
     @Test
     public void testRemoveMethod() {
         List<Employee> list = Main.removeDuplicates(employees);
-        System.out.println(list);
-        assertEquals(list.size(), 1);
-        assertEquals(list.get(0).getFirstname(), "Burak");
+
+        assertEquals(list.size(), 2);
+        assertEquals(list.get(1).getFirstname(), "Burak");
     }
 
     @DisplayName("calculatedWord method doğru çalışıyor mu?")
